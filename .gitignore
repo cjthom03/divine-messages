@@ -8,29 +8,29 @@
 /.bundle
 
 # Ignore all logfiles and tempfiles.
-*/log/*
-*/tmp/*
-!*/log/.keep
-!*/tmp/.keep
+/humanity/log/*
+/humanity/tmp/*
+!/humanity/log/.keep
+!/humanity/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-*/tmp/pids/*
-!*/tmp/pids/
-!*/tmp/pids/.keep
+/humanity/tmp/pids/*
+!/humanity/tmp/pids/
+!/humanity/tmp/pids/.keep
 
 # Ignore uploaded files in development.
-*/storage/*
-!*/storage/.keep
+/humanity/storage/*
+!/humanity/storage/.keep
 
-*/public/assets
-.byebug_history
+/humanity/public/assets
+/humanity/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-*/config/master.key
+/humanity/config/master.key
 
-*/public/packs
-*/public/packs-test
-*/node_modules
-*/yarn-error.log
-yarn-debug.log*
-.yarn-integrity
+/humanity/public/packs
+/humanity/public/packs-test
+/humanity/node_modules
+/humanity/yarn-error.log
+/humanity/yarn-debug.log*
+/humanity/.yarn-integrity
