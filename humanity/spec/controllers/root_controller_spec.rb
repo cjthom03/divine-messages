@@ -7,7 +7,7 @@ RSpec.describe RootController, type: :controller do
     it 'renders nope' do
       get :index
       expect(response).to have_http_status(200)
-      expect(response.body).to eq('nope')
+      expect(response).to render_template(:index)
     end
   end
 end
